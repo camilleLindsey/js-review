@@ -8,29 +8,56 @@ Now, unleash your coding beast!
 
 /*1.  Variables with a String as their value.
 Declare variables named yourName, neighborName, teacherName.  Console log each variable.*/
+var yourName = "camille";
+console.log(yourName );
+var neighborName = "sara";
+console.log(neighborName);
+var teacherName = 'vic';
+console.log(teacherName);
 
 /*2. Variable with a Number as their value.
 Declare variables named numberOfFloorsBurjKhalifa, TokyoOlympicsYear. Please assign the actual data for each variable.
 Console log each variable.*/
+//var x = "numberOfFloorsBurjKhalifa";
+//console.log(x.length);
+var numberOfFloorsBurjKhalifa = 164;
+console.log(numberOfFloorsBurjKhalifa);
+var TokyoOlympicsYear= 1964;
+console.log(TokyoOlympicsYear);
 
 /*3. Variables with Boolean values
 Declare variables named lovesPrepClass, eatsDonuts, drinksGin.  Console log each variable.*/
+var lovesPrepClass = true;
+console.log(lovesPrepClass);
+var eatsDonuts = false;
+console.log(eatsDonuts);
+var drinksGin = false;
+console.log(drinksGin);
 
 /*4. Variable with Null values
 Declare variables named completedCodingChallenge, traveledToSpace.  Console log each variable*/
-
+var completedCodingChallenge = null;
+console.log(completedCodingChallenge);
+var traveledToSpace = null;
+console.log(traveledToSpace);
 /*5.  Variables with Array for its value.
 Declare a variable named japanPrefectures and assign the value of any 5 prefectures in Japan.
 Console log the variable 
 Console log the value at index 1.
 Console log the value at index 3.*/
+var japanPrefectures = ["Tokyo", "Kyoto", "Osaka", "Hokkaido", "chiba", "Okinawa"];
+console.log(japanPrefectures);
+var preFic1 = [japanPrefectures [1]];
+console.log(preFic1);
+var preFic2 = [japanPrefectures [3]];
+console.log(preFic2);
 
 /*6.  Variable with Array for its value.
 Declare a variable named planets and assign the value of each planet in our solar system, in the order of distance from the sun.  
 Console log the variable
 Console log "Earth" using the index position
 Console log "Uranus" using the index position*/
-
+var planets = (mercury, venus, earth, mars, jupiter, saturn);
 /*7. Variables with Array for its value.
 Declare a variable named india and assign the value of 3 popular tourist attractions.  
 Console log the variable.*/
