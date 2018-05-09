@@ -205,37 +205,28 @@ var roster = ["Alex", "Laura", "Sami", "Jasmine", "Adam", "Dakota", "Jonathon", 
 var Ateam = [];
 var Bteam = [];
 
+// even team
+
+for(var i = 0; i<roster.length; i++){
+    //console.log(roster[i]);
+       if(i%2 ===1){
+          Ateam.push(roster[i]);
+         }
+      }
+        console.log(Ateam); 
+
+//odd team
+
 
 for(var i = 0; i<roster.length; i++){
   
     //console.log(roster[i]);
-    //evens bc 2 * 0 + 2 = 2
     
     if(i%2 ===0){
-      roster[i] = [];
+      Bteam.push (roster[i]);
     }
    }
-   console.log(roster); 
-
-   var roster = ["Alex", "Laura", "Sami", "Jasmine", "Adam", "Dakota", "Jonathon", "Luther", "Kevin", "Vic"];
-   for(var i = 0; i<roster.length; i++){
-    //console.log(roster[i]);
-    if(i%2 ===1){
-      roster[i] = [];
-    }
-   }
-   console.log(roster);
-
-   var roster = ["Alex", "Laura", "Sami", "Jasmine", "Adam", "Dakota", "Jonathon", "Luther", "Kevin", "Vic"];
-   var Ateam = [];
-
-function Ateam(lineup){
-    for (var i = 0; i<lineup.length; i++){
-        if(i%2 ===1){
-            console.log(Ateam);
-        }
-    }
-}
+   console.log(Bteam); 
 
 
 
@@ -246,10 +237,10 @@ function Ateam(lineup){
 i.e. "The locaton at 0 is Tokyo."*/
 
 
-var japanPrefectures = ["Tokyo", "Kyoto", "Osaka", "Hokkaido", "Chiba", "Okinawa"];
- for(var i=0; i<japanPrefectures.length; i++){
-     console.log("The location at " + i + " is: " + japanPrefectures[i] + "." );
- }
+// var japanPrefectures = ["Tokyo", "Kyoto", "Osaka", "Hokkaido", "Chiba", "Okinawa"];
+//  for(var i=0; i<japanPrefectures.length; i++){
+//      console.log("The location at " + i + " is: " + japanPrefectures[i] + "." );
+//  }
 
 
 
